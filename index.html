@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="CivicSense helps communities improve civic sense through awareness, reporting, and volunteer action."
+    />
+    <title>CivicSense — Civic Sense Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-elevate>
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="CivicSense home">
+          <span class="brand-mark" aria-hidden="true">CS</span>
+          <span class="brand-text">CivicSense</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            data-nav-toggle
+          >
+            <span class="sr-only">Open menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-menu" id="nav-menu" data-nav-menu>
+            <a href="#mission" class="nav-link">Mission</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how" class="nav-link">How it works</a>
+            <a href="#impact" class="nav-link">Impact</a>
+            <a href="#resources" class="nav-link">Resources</a>
+            <a href="#contact" class="btn btn-primary nav-cta">Get involved</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="badge">Cleaner streets • Safer roads • Better communities</p>
+            <h1>Civic sense starts with small actions—made easier together.</h1>
+            <p class="lead">
+              CivicSense is a civic awareness and action platform for reporting local issues,
+              learning good public habits, and joining community drives—built to work beautifully
+              on mobile.
+            </p>
+            <p class="hero-loc">
+              Serving <strong>Vadodara, Gujarat</strong> • awareness, reporting, and volunteering.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Report / Volunteer</a>
+              <a class="btn btn-ghost" href="#how">See how it works</a>
+            </div>
+            <div class="hero-stats" role="list" aria-label="Highlights">
+              <div class="stat" role="listitem">
+                <p class="stat-value">24×7</p>
+                <p class="stat-label">Issue reporting & tracking</p>
+              </div>
+              <div class="stat" role="listitem">
+                <p class="stat-value">Nearby</p>
+                <p class="stat-label">Local drives and events</p>
+              </div>
+              <div class="stat" role="listitem">
+                <p class="stat-value">Simple</p>
+                <p class="stat-label">Awareness bites you can share</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="CivicSense preview card">
+            <div class="card">
+              <div class="card-top">
+                <div class="dots" aria-hidden="true">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                </div>
+                <p class="card-title">Quick report (preview)</p>
+              </div>
+              <div class="card-body">
+                <div class="pill-row" aria-label="Common issue types">
+                  <span class="pill">Garbage</span>
+                  <span class="pill">Pothole</span>
+                  <span class="pill">Streetlight</span>
+                  <span class="pill">Traffic</span>
+                </div>
+
+                <div class="mini-grid">
+                  <div class="mini">
+                    <p class="mini-kicker">1) Add details</p>
+                    <p class="mini-text">What happened and where?</p>
+                  </div>
+                  <div class="mini">
+                    <p class="mini-kicker">2) Submit</p>
+                    <p class="mini-text">Share with your ward / city</p>
+                  </div>
+                  <div class="mini">
+                    <p class="mini-kicker">3) Track</p>
+                    <p class="mini-text">Updates until resolved</p>
+                  </div>
+                  <div class="mini">
+                    <p class="mini-kicker">4) Share</p>
+                    <p class="mini-text">Invite neighbors to help</p>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-row">
+                    <span>Report readiness</span><span>High</span>
+                  </div>
+                  <div class="bar" aria-hidden="true"><span class="bar-fill"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="mission">
+        <div class="container">
+          <div class="section-head">
+            <h2>Our mission</h2>
+            <p class="muted">
+              Make civic sense a daily habit—through simple tools, clear awareness, and community
+              action. Report issues, learn the right practices, and participate in local drives.
+            </p>
+          </div>
+
+          <div class="callouts">
+            <article class="callout">
+              <p class="callout-kicker">Awareness</p>
+              <h3>Simple rules that everyone can follow</h3>
+              <p class="muted">Cleanliness, traffic discipline, public property care, and respectful behavior.</p>
+            </article>
+            <article class="callout">
+              <p class="callout-kicker">Action</p>
+              <h3>Turn complaints into constructive reports</h3>
+              <p class="muted">Structured reporting makes it easier for authorities and communities to respond.</p>
+            </article>
+            <article class="callout">
+              <p class="callout-kicker">Community</p>
+              <h3>Volunteer drives that actually get done</h3>
+              <p class="muted">From cleanup drives to awareness campaigns—join and track participation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <h2>Challenges we can fix—together</h2>
+            <p class="muted">
+              Real issues seen across cities like Vadodara: bad roads, monsoon waterlogging, and
+              poor waste disposal. Use these as examples and replace with your local photos anytime.
+            </p>
+          </div>
+
+          <div class="gallery-grid" aria-label="Civic issue photo gallery">
+            <figure class="shot">
+              <img
+                src="./assets/images/bad-road.svg"
+                alt="Illustration of a damaged road with potholes."
+                loading="lazy"
+              />
+              <figcaption>
+                <p class="shot-title">Bad roads / potholes</p>
+                <p class="muted">Safer roads start with timely reporting and repair.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="./assets/images/waterlogging.svg"
+                alt="Illustration of rain waterlogging on a street."
+                loading="lazy"
+              />
+              <figcaption>
+                <p class="shot-title">Monsoon waterlogging</p>
+                <p class="muted">Drainage issues need quick escalation and tracking.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="./assets/images/littering.svg"
+                alt="Illustration of littering and overflowing trash in a public area."
+                loading="lazy"
+              />
+              <figcaption>
+                <p class="shot-title">Bad civic sense (littering)</p>
+                <p class="muted">Awareness + bins + consistent collection reduce waste.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <p class="tiny muted">Images are local SVG illustrations (offline-friendly).</p>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head">
+            <h2>Important features for a civic sense website</h2>
+            <p class="muted">
+              Built for public awareness and community participation—with a professional look that
+              stays clear and readable.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">📍</div>
+              <h3>Issue reporting</h3>
+              <p class="muted">Report garbage, potholes, streetlights, water leaks, and more with location details.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">🧾</div>
+              <h3>Track & updates</h3>
+              <p class="muted">Keep a clear status—submitted, in progress, resolved—with transparent updates.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">🧠</div>
+              <h3>Awareness bites</h3>
+              <p class="muted">Short, shareable civic tips for cleanliness, traffic rules, and public manners.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">🤝</div>
+              <h3>Volunteer drives</h3>
+              <p class="muted">Create and join local cleanups, tree-planting, and awareness events.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">🏫</div>
+              <h3>School & community programs</h3>
+              <p class="muted">Ready for civic clubs, resident groups, and campus campaigns.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">🛡️</div>
+              <h3>Safety & ethics</h3>
+              <p class="muted">Guidance for responsible reporting, privacy, and respectful community behavior.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="how">
+        <div class="container">
+          <div class="section-head">
+            <h2>How it works</h2>
+            <p class="muted">A simple flow designed for mobile, so anyone can participate.</p>
+          </div>
+
+          <div class="steps">
+            <article class="step">
+              <div class="step-num">1</div>
+              <div>
+                <h3>Choose what you want to do</h3>
+                <p class="muted">Report an issue, learn civic tips, or join a local drive.</p>
+              </div>
+            </article>
+            <article class="step">
+              <div class="step-num">2</div>
+              <div>
+                <h3>Share details responsibly</h3>
+                <p class="muted">Add location + description. Avoid personal data; keep it factual.</p>
+              </div>
+            </article>
+            <article class="step">
+              <div class="step-num">3</div>
+              <div>
+                <h3>Get updates & take action</h3>
+                <p class="muted">Track status, spread awareness, and mobilize help if needed.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="impact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Impact that people can see</h2>
+            <p class="muted">Use this section to show transparency and progress.</p>
+          </div>
+
+          <div class="impact-grid" role="list" aria-label="Impact metrics">
+            <div class="impact" role="listitem">
+              <p class="impact-value">1,240</p>
+              <p class="impact-label muted">Issues reported</p>
+            </div>
+            <div class="impact" role="listitem">
+              <p class="impact-value">860</p>
+              <p class="impact-label muted">Resolved</p>
+            </div>
+            <div class="impact" role="listitem">
+              <p class="impact-value">310</p>
+              <p class="impact-label muted">Volunteers joined</p>
+            </div>
+            <div class="impact" role="listitem">
+              <p class="impact-value">48</p>
+              <p class="impact-label muted">Community drives</p>
+            </div>
+          </div>
+
+          <div class="testimonials-grid">
+            <figure class="quote">
+              <blockquote>“Reporting issues became structured and respectful. We got faster responses.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">RG</span>
+                <span>
+                  <span class="name">Resident Group</span>
+                  <span class="role muted">Neighborhood</span>
+                </span>
+              </figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“The civic tips are easy to share—students started practicing them daily.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">SC</span>
+                <span>
+                  <span class="name">School Club</span>
+                  <span class="role muted">Civic program</span>
+                </span>
+              </figcaption>
+            </figure>
+            <figure class="quote">
+              <blockquote>“Cleanups are better organized now—attendance and tasks are clear.”</blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">VO</span>
+                <span>
+                  <span class="name">Volunteers</span>
+                  <span class="role muted">Community drive</span>
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="resources">
+        <div class="container">
+          <div class="section-head">
+            <h2>Resources</h2>
+            <p class="muted">
+              Posters, checklists, and quick guides you can use in apartments, schools, and offices.
+            </p>
+          </div>
+
+          <div class="resource-grid">
+            <a class="resource" href="#contact">
+              <div class="resource-icon" aria-hidden="true">🧹</div>
+              <div>
+                <p class="resource-title">Cleanliness checklist</p>
+                <p class="muted">Daily habits to keep public spaces clean.</p>
+              </div>
+            </a>
+            <a class="resource" href="#contact">
+              <div class="resource-icon" aria-hidden="true">🚦</div>
+              <div>
+                <p class="resource-title">Traffic discipline guide</p>
+                <p class="muted">Safe road behavior for drivers and pedestrians.</p>
+              </div>
+            </a>
+            <a class="resource" href="#contact">
+              <div class="resource-icon" aria-hidden="true">🏛️</div>
+              <div>
+                <p class="resource-title">Public property care</p>
+                <p class="muted">Respect and maintenance reminders for shared assets.</p>
+              </div>
+            </a>
+            <a class="resource" href="#contact">
+              <div class="resource-icon" aria-hidden="true">🧑‍🤝‍🧑</div>
+              <div>
+                <p class="resource-title">Volunteer drive template</p>
+                <p class="muted">Plan tasks, roles, and safety guidelines.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <h2>Get involved</h2>
+            <p class="muted">
+              Report an issue, volunteer for a drive, or request a school/community program.
+              This form is frontend-only right now—connect a backend later to receive submissions.
+            </p>
+            <div class="contact-cards">
+              <div class="mini-card">
+                <p class="mini-kicker">Email</p>
+                <p class="mini-text"><a href="mailto:civicsense@example.com">civicsense@example.com</a></p>
+              </div>
+              <div class="mini-card">
+                <p class="mini-kicker">Helpline hours</p>
+                <p class="mini-text">Mon–Sat • 9am–6pm</p>
+              </div>
+              <div class="mini-card">
+                <p class="mini-kicker">City</p>
+                <p class="mini-text">Vadodara, Gujarat</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" id="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="topic">I want to</label>
+              <select id="topic" name="topic" required>
+                <option value="" selected disabled>Select one</option>
+                <option value="report">Report an issue</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="program">Request a school/community program</option>
+                <option value="partner">Partner / Sponsor</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Details</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Share the issue/location, or how you'd like to help."
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <p class="form-note muted" id="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> CivicSense. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#mission">Mission</a>
+          <a href="#how">How it works</a>
+          <a href="#resources">Resources</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
